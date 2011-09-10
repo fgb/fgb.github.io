@@ -1,0 +1,44 @@
+<!--#include virtual='header.html' -->
+        	<p class="toptabs">
+        		<strong class="hide">Main menu:</strong>
+        		<a class="toptab" href="index.shtml">Home</a><span class="hide"> | </span>
+        		<a class="toptab active" href="pubs.shtml">Publications</a>
+        	</p>
+            
+        	<h1>Fernando L. Garcia Bermudez</h1>
+            
+        	<div id="maincontent">       
+
+        		<h4>Conference proceedings and abstracts</h4>
+
+        		<p>Fernando L. Garcia Bermudez and Ronald S. Fearing (2010) <br />
+                <strong>Flapping oscillations versus optical flow motion estimation</strong> <br />
+                In <a href="http://www.esf.org/activities/esf-conferences/details/2010/confdetail324.html" target="_blank"><em>ESF-EMBO Symposium on Functional Neurobiology in Minibrains</em></a>. Sant Feliu de Guixols, Spain.</p>
+
+        		<p>Fernando L. Garcia Bermudez and Ronald S. Fearing (2009) <br />
+                <a href="http://dx.doi.org/10.1109/IROS.2009.5354337" target="_blank"><strong>Optical Flow on a Flapping Wing Robot</strong></a> <br />
+                In <em>IROS 2009</em>. St. Louis, MO, USA.</p>
+               
+        		<h4>Theses and reports</h4>
+        		
+        		<div class="paperlinks">
+                    <br />
+                    <a href="pubs/Garcia-Bermudez2010.pdf">pdf</a> <br />
+                </div>
+        		<p>Fernando L. Garcia Bermudez (2010) <br />
+                <a href="http://www.eecs.berkeley.edu/Pubs/TechRpts/2010/EECS-2010-96.html" target="_blank"><strong>Optical Flow on a Flapping Wing Robot</strong></a> <br />
+                Master's thesis. EECS Department, University of California, Berkeley.</p>
+                
+        		<h4>Talks</h4>
+
+                <div class="paperlinks">
+                    <a href="pubs/fgb_cifar-ncap_SummerSchool2010.pdf">slides</a><br />
+                </div>
+                <p><strong>Towards Indoor Navigation of a Flapping Wing Robot via Optical Flow</strong> <br />
+                In <a href="http://www.cs.toronto.edu/~asamir/cifar/" target="_blank"><em>CIfAR NCAP Summer School 2010</em></a>. University of Toronto, ON, Canada, August 2010.</p>
+
+        		<p><strong>Mili-Robots Biomiméticos y Tecnologías Asociadas</strong> <br />
+                MEMS Group Seminar. Centro Atómico Constituyentes, CNEA, Buenos Aires, Argentina, August 2008.</p>
+                
+        	</div>
+<!--#include virtual='footer.html' -->
