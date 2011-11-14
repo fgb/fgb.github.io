@@ -13,7 +13,7 @@
 
                 <p>I’m a PhD candidate at the <a href="http://www.eecs.berkeley.edu/">Electrical Engineering and Computer Sciences</a> department at <a href="http://www.berkeley.edu/">UC Berkeley</a> advised by Professor <a href="http://robotics.eecs.berkeley.edu/~ronf/">Ron Fearing</a> in the <a href="http://robotics.eecs.berkeley.edu/~ronf/Biomimetics.html">Biomimetic Millisystems Lab</a>. I'm also affiliated with the <a href="http://redwood.berkeley.edu/">Redwood Center for Theoretical Neuroscience</a> headed by Professor <a href="http://redwood.berkeley.edu/bruno/">Bruno Olshausen</a>.</p>
 
-                <p>I'm especially interested in the interplay between scientific discovery and engineering solutions as they apply to autonomous robot navigation. This draws me towards the fields of computational biology, active perception, computational neuroscience, and adaptive control.</p>
+                <p>I'm interested in the problem of autonomous robot navigation, which draws me to the fields of computational biology, active perception, computational neuroscience, and adaptive control.</p>
                 
                 <p>I'm currently working on robust indoor navigation of ornithopters using optical flow and on learning crawler gaits for efficient locomotion over various rough terrains. This last project is a collaboration with Professor <a href="http://www.cs.berkeley.edu/~pabbeel/">Pieter Abbeel</a>.</p>
 
