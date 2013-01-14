@@ -15,7 +15,7 @@
 
                 <p>I'm interested in the problem of autonomous robot navigation, which draws me to the fields of computational biology, active perception, computational neuroscience, and adaptive control.</p>
 
-                <p>I'm currently working on robust indoor navigation of ornithopters using optical flow and on learning crawler gaits for efficient locomotion over various rough terrains. This last project is a collaboration with Professor <a href="http://www.cs.berkeley.edu/~pabbeel/">Pieter Abbeel</a>.</p>
+                <p>I'm currently working on robust indoor navigation of unsteady robots using optical flow and on learning control policies for efficient locomotion of legged robots over rough terrain. This last project is a collaboration with Professor <a href="http://www.cs.berkeley.edu/~pabbeel/">Pieter Abbeel</a>.</p>
 
             </div>
 <!--#include virtual='footer.html' -->

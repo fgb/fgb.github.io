@@ -11,8 +11,12 @@
 
                 <h4>Conference proceedings and abstracts</h4>
 
+                <p>Duncan W. Haldane, Kevin C. Peterson, Fernando L. Garcia Bermudez, and Ronald S. Fearing (2013) <br />
+                <strong>Animal-inspired Design and Aerodynamic Stabilization of a Hexapedal Millirobot</strong> <br />
+                In <em>ICRA 2013</em>. Karlsruhe, Germany.</p>
+
                 <p>Fernando L. Garcia Bermudez, Ryan C. Julian, Duncan W. Haldane, Pieter Abbeel, and Ronald S. Fearing (2012) <br />
-                <strong>Performance analysis and terrain classification for a legged robot over rough terrain</strong> <br />
+                <a href="http://dx.doi.org/10.1109/IROS.2012.6386243" target="_blank"><strong>Performance analysis and terrain classification for a legged robot over rough terrain</strong></a> <br />
                 In <em>IROS 2012</em>. Vilamoura, Algarve, Portugal.</p>
 
                 <p>Stanley S. Baek, Fernando L. Garcia Bermudez, and Ronald S. Fearing (2011) <br />
