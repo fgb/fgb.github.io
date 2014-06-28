@@ -1,16 +1,6 @@
 ---
 ---
-{% include header.html %}
-            <p class="toptabs">
-                <strong class="hide">Main menu:</strong>
-                <a class="toptab active" href="index.html">Home</a><span class="hide"> | </span>
-                <a class="toptab" href="pubs.html">Publications</a>
-            </p>
-
-            <h1>Fernando L. Garcia Bermudez</h1>
-
-            <div id="maincontent">
-
+{% include header.html active_tab='home' %}
                 <div id="picture"><img src="fgb.jpg" width="180" height="270" alt="" /></div>
 
                 <p>I'm a PhD candidate at the <a href="http://www.eecs.berkeley.edu/">Electrical Engineering and Computer Sciences</a> department at <a href="http://www.berkeley.edu/">UC Berkeley</a> advised by Professor <a href="http://robotics.eecs.berkeley.edu/~ronf/">Ron Fearing</a> in the <a href="http://robotics.eecs.berkeley.edu/~ronf/Biomimetics.html">Biomimetic Millisystems Lab</a>. I'm also affiliated with the <a href="http://redwood.berkeley.edu/">Redwood Center for Theoretical Neuroscience</a> headed by Professor <a href="http://redwood.berkeley.edu/bruno/">Bruno Olshausen</a>.</p>
@@ -18,6 +8,4 @@
                 <p>I'm interested in the problem of autonomous robot navigation, which draws me to the fields of computational biology, active perception, computational neuroscience, and adaptive control.</p>
 
                 <p>I'm currently working on robust indoor navigation of unsteady robots using optical flow and on learning control policies for efficient locomotion of legged robots over rough terrain. This last project is a collaboration with Professor <a href="http://www.cs.berkeley.edu/~pabbeel/">Pieter Abbeel</a>.</p>
-
-            </div>
 {% include footer.html %}
