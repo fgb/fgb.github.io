@@ -4,20 +4,20 @@
 
         <title>Fernando L. Garcia Bermudez</title>
 
-        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-        <meta name="description" content="" />
-        <meta name="keywords" content="optical flow, computer vision, robots, robotics, aerial robotics, biologically inspired, biomimetics, learning, neural networks, machine learning" />
-        <meta name="author" content="fgb" />
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="keywords" content="optical flow, computer vision,
+                                       robotics, aerial robotics, robots,
+                                       biologically inspired, biomimetics,
+                                       machine learning, neural networks">
+        <meta name="author" content="fgb">
 
-        <link rel="stylesheet" type="text/css" href="/main.css" title="Daleri Single mod" media="screen,projection" />
+        <link rel="stylesheet" type="text/css" href="/reset.min.css">
+        <link rel="stylesheet" type="text/css" href="/main.css">
 
-        <script type="text/javascript" src="/scripts/highslide-with-html.js"></script>
-        <link rel="stylesheet" type="text/css" href="/scripts/highslide.css" />
-        <script type="text/javascript">
-            hs.graphicsDir = '/scripts/graphics/';
-            hs.outlineType = 'rounded-white';
-            hs.wrapperClassName = 'draggable-header';
-        </script>
+        <!--[if lt IE 9]>
+        <script src="html5shiv-printshiv.min.js"></script>
+        <![endif]-->
 
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -33,12 +33,13 @@
 
     <body>
 
-        <div id="wrap">
+        <header>
+            <nav>
+                <ul>
+                    <li><a {% if include.active_tab == 'home' %}class="active" {% endif %}href="/">Fernando L. Garcia Bermudez</a></li>
+                    <li><a {% if include.active_tab == 'pubs' %}class="active" {% endif %}href="/pubs/">Publications</a></li>
+                </ul>
+            </nav>
+        </header>
 
-            <p class="toptabs">
-                <strong class="hide">Main menu:</strong>
-                <a class="toptab {% if include.active_tab == 'home' %}active{% endif %}" href="/">Fernando L. Garcia Bermudez</a><span class="hide"> | </span>
-                <a class="toptab {% if include.active_tab == 'pubs' %}active{% endif %}" href="/pubs/">Publications</a>
-            </p>
-
-            <div id="maincontent">
+        <main>

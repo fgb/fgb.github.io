@@ -1,156 +1,68 @@
-/*
-Restructuring and modifications by fgb
-Original design: Daleri Single (v1.0 - Mar 25, 2009) - A free xhtml/css website template by Andreas Viklund and stylishtemplate.com.
-For more information, see http://andreasviklund.com/templates/daleri-single/
-*/
-
-/* Main containers */
 body{
-    padding:0;
-    margin:0;
-    font:76% verdana,tahoma,sans-serif;
-    background:#1a1a1a top center no-repeat;
-    color:#444;
-    border-top:4px solid #444;
-    text-align:center;
-    line-height:1.5em;
-}
-#wrap{
-    width:760px;
-    text-align:right;
-    margin:0 auto;
-}
-#maincontent{
-    min-height:270px;
-    background:#D2D2D2;
-    text-align:justify;
-    border:3px solid #666;
-    padding: 15px 15px;
-    margin-bottom: 15px;
-    border-radius: 10px 0px;
-}
-#picture{
-    float:right;
-    margin-left: 15px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  background:#383E3F;
+  border-top:4px solid #383E3F;
+  font: 100% tahoma,helvetica,sans-serif;
+  line-height:1.5em;
+  text-align:right;
 }
 
-/* HTML Tags */
-a{
-    text-decoration:none;
-    font-weight:normal;
-    color:#006281;
+header nav ul li{
+  display: inline;
 }
-a:hover{
-    text-decoration:none;
-    color:#638894;
+header nav ul li a{
+  padding:0px 5px;
+  color:#ccc;
+  text-decoration:none;
 }
-a img{
-    border:0;
+header nav ul li a:hover{
+  border-top:8px solid #91C33F;
+  color:#ccc;
 }
-h1{
-    margin:50px 0 -5px 0;
-    padding:0;
-    font-size:2.6em;
-    color:#666;
-    line-height:1.2em;
-}
-h1 a{
-    color:#666;
-    font-weight:700;
-    text-decoration:none;
-}
-h1 a:hover{
-    color:#555555;
-    text-decoration:none;
-}
-h2{
-    margin:0 0 12px 0;
-    padding:12px 6px 12px 15px;
-    background:#1a1a1a;
-    border-left:4px solid #e49938;
-    color:#ddd; font-size:1.5em;
-    font-weight:400;
-}
-h2 a{
-    font-weight:400;
-}
-h3{
-    font-size:1.4em;
-    font-weight:400;
-    margin:0 0 10px 0;
-}
-h4{
-    color:#666;
-    border-bottom:1px solid #666;
-}
-p{
-    margin:0 0 15px 0;
-}
-ul{
-    margin:0 0 15px 20px;
-    padding:0;
-}
-li{
-    margin:0;
-    padding:0 0 0 5px;
+header nav ul li a.active{
+  border-top:8px solid #91C33F;
 }
 
+main{
+  color:#FFFFFE;
+  text-align:left;
+}
+main section header{
+  margin-top: 10px;
+  color:#aaa;
+}
+main section span.title{
+  font-style: italic;
+}
+main figure{
+  float:left;
+  margin: 5px 10px 10px 5px;
+}
+main p{
+  margin: 10px 5px 15px 5px;
+}
+main a{
+  text-decoration:none;
+  font-weight:normal;
+  color:#818E8F;
+}
+main a:hover{
+  color:#91C33F;
+}
+main a.pdf{
+  float:right;
+  text-align:right;
+  padding:0px 10px 10px;
+}
 
-/* Various classes */
-.toptabs{
-    clear:both;
-    font-size:1.2em;
-    line-height:1.5em;
-    color:#aaa;
-    margin:0 0 15px 0;
+footer{
+  color:#999;
 }
-.toptab{
-    padding:3px 10px 5px 10px;
-    font-weight:400;
-    margin:0 2px;
-    color:#ccc;
-    border-radius: 0px 0px 7px 7px;
+footer span.at{
+  color:#555;
 }
-.toptab:hover{
-    background-color:#444;
-    color:#fff;
-    text-decoration:none;
-}
-.active{
-    background-color:#444;
-    color:#fff;
-}
-.active:hover{
-    background-color:#444;
-    color:#fff;
-}
-.paperlinks{
-    float:right;
-    text-align:right;
-    padding:0px 0px 10px 10px;
-}
-.bottomlinks, .bottomlinks a{
-    text-align:center;
-    color:#888;
-    font-size:0.9em;
-    font-weight:400;
-    margin:5px auto;
-}
-.footer{
-    color:#888;
-    font-weight:400;
-}
-.footer_sep{
-    color:#333;
-}
-.footer_at{
-    color:#444;
-}
-.thanks a{
-    float:right;
-    color:#576A7C;
-    font-weight:400;
-}
-.hide{
-    display:none;
+footer span.sep{
+  color:#91C33F;
 }
